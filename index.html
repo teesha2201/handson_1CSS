@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #internal_h3
+        {
+            font-weight: bold;
+            font-family: serif;
+            font-style: italic;
+            color:rgba(219, 33, 16, 0.972)
+        }
+        #unorder
+        {
+            color: brown;
+            letter-spacing:3px ;
+            font-size: smaller;
+            font-weight: bold;
+            word-spacing: 2px;
+        }
+        #btag
+        {
+            background-color: yellow;
+            font-weight:600px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/CSS" href="./style.css">
+
+</head>
+<body>
+    <h2 style="color:rgb(230,0,0);">This is First Css Assignment</h2>
+    <hr>
+    <h3 style="color:rgba(219, 33, 16, 0.972);font-family:serif ;font-style: italic; font-weight:bold">What is CSS?</h3>
+
+    <ol style="color: brown; line-height: 3; font-size: smaller; ">
+        <li>CSS stands for Cascading Style Sheets.</li>
+
+        <li>CSS describes how HTML elements are to be displayed on screen,paper,or in other media.</li>
+
+        <li><b style="text-decoration-line: line-through;">Css is not neccesary</b><span style="background-color: yellow;"><b style="font-weight: bolder;"> CSS saves a lot of work.</b></span>It can control the layout of multiple web pages all at once.</li>
+        
+        <li style="text-decoration-line: underline; font-family: serif;"><span style="font-style:italic; font-weight: bold;"> External stylesheets are stored in CSS files.</span></li>
+    </ol>
+
+    <h3 id="internal_h3">CSS can be added to HTML documents in 3 ways:</h3>
+
+    <ul id="unorder">
+        <li>Inline - by using the style attribute inside HTML elements1</li>
+        <li>Internal - by using a sytle element in the head section</li>
+        <li>External - by using a link element to link to an external CSS file.</li>
+        <li>The most common way to add CSS, is to keep the styles in external CSS files. However, <b id="btag">in this <br>tutorial we will use inline and internal styles,</b> because this is easier to demonstrate, and easier<br> for you to try it yourself.</li>
+    </ul>
+
+    <p class="ptag">when comparing CSS class vs ID,the difference is that Css class applies a style to multiple elements.ID,on the other hand,applies a style to one unique element.ID is also<br id="b2tag"> special in that you can use a special URL to link directly to an element and it's used by javaScript.</p>
+    <p class="ptag">In CSS,selectors are used to target a specific element or range of elements on a web page.Once an element has been targeted, style or set of styles can be applied to the<br id="b3tag"> element.</p>
+    <p class="ptag">There is a wide range of selection available.Two of the most commonly used to target elements to which a style should be applied.  </p>
+
+    <a  id="linktag" href="https://www.prepbytes.com/">prepbytes Home</a>
+
+</body>
+</html>
